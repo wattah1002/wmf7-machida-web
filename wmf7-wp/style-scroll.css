@@ -40,6 +40,10 @@ footer {
 footer h1 {
   color: #FFFFFF;
 }
+footer a{
+  width:100%;
+  height:100%;
+}
 .h_200 {
   height: 200vw!important;
 }
@@ -124,6 +128,9 @@ footer h1 {
     height: 150vw;
   }
   #content_wrapper {
+    width: 50vw;
+  }
+  footer a {
     width: 50vw;
   }
   footer a h1 {
