@@ -44,7 +44,7 @@ Template Name: 人類滅亡
     </main>
     <footer>
       <a href="<?php echo get_tag_link(8); ?>">
-        <h1>ジンルイメツボウ？</h1>
+        <h1>ジンルイメツボウ作品はこちら</h1>
       </a>
     </footer>
     <div id="background" class="bg"></div>
