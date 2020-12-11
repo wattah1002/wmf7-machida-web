@@ -465,7 +465,7 @@ main h2{
   margin-left: auto;
   margin-right: auto; */
 }
-#figure img{
+.article-content figure img{
 max-width: 100%;
 height: auto;	
 }
