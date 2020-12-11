@@ -3,7 +3,7 @@
 	</div>
 	<nav class="navBlock">
 		<ul class="navItemList">
-			<li>***</li>
+			<!-- <li>***</li>
 			<li>|</li>
 			<li>***</li>
 			<li>|</li>
@@ -11,7 +11,7 @@
 			<li>|</li>
 			<li>***</li>
 			<li>|</li>
-			<li>***</li>
+			<li>***</li> -->
 		</ul>
 	</nav>
 </footer>
