@@ -461,13 +461,14 @@ main h2{
 
 /* 画像サイズの変更 */
 .article-content figure {
-  max-width: 100%;
-  height: auto;
   /* height: auto;
   margin-left: auto;
   margin-right: auto; */
 }
-
+#figure img{
+max-width: 100%;
+height: auto;	
+}
 .article-tag{
   margin-bottom: 18px;
   display: block;
