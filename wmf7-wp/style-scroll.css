@@ -92,16 +92,19 @@ footer a{
   display: block;
   position: fixed;
   left: 0;
+  pointer-events: none;
 }
 .smoke1 {
   width: 150vw;
   height: 150vw;
   bottom: -150vw;
+  pointer-events: none;
 }
 .smoke2, .smoke6, .smoke7 {
   width: 100vw;
   height: 200vw;
   bottom: -200vw;
+  pointer-events: none;
 }
 .smoke3, .smoke4, .smoke5, .smoke8, .smoke9 {
   width: 80vw;
@@ -109,6 +112,7 @@ footer a{
   bottom: 0;
   right: 0;
   opacity: 0;
+  pointer-events: none;
 }
 #rulers {
   margin: 0;
