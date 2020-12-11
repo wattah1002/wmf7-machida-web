@@ -129,10 +129,10 @@ header nav{
 #mainPhoto{
   background-image: url(./images/mainPic.jpg);
   background-repeat: no-repeat;
-  width: 100%;
-  min-width:1000px;
+  width: 100vw;
+  /* min-width:1000px; */
   /* height: 1018px; */
-  height: 300px;
+  height: 200px;
   background-size: cover;
   background-position: center center;
 }
@@ -289,8 +289,8 @@ main h2{
 .infoBlock{
   background-image: url(./images/footerPic.jpg);
   background-repeat: no-repeat;
-  width:100%;
-  min-width: 1000px;
+  width:100vw;
+  /* min-width: 1000px; */
   height:200px;
   background-size: cover;
 }
@@ -378,7 +378,8 @@ main h2{
 }
 
 .container {
-  width: 1000px;
+  /* width: 1000px; */
+  width: 100vw;
   margin-top: 16px;
   margin-bottom: 32px;
   margin-left: auto;
@@ -428,6 +429,7 @@ main h2{
 .article-img{
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
 }
 .article-img img{
   float: left;

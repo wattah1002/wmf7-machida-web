@@ -1,0 +1,179 @@
+/* --------
+  fundamental
+-------- */
+body, h1 {
+    margin: 0;
+}
+body {
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    background: rgba(20,20,20)
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* --------
+  contents
+-------- */
+#background {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 300vw;
+    background: url(https://cdn.glitch.com/6c02ced5-b4c2-496f-bd68-adaf38e6ae78%2FIMG_1303.JPG?v=1605716283759) no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+#content_wrapper {
+  width: 100vw;
+  position: relative;
+}
+footer {
+  background: rgba(20,20,20)
+}
+footer h1 {
+  color: #FFFFFF;
+}
+.h_200 {
+  height: 200vw!important;
+}
+.h_300 {
+  height: 300vw!important;
+}
+.h_500 {
+  height: 500vw!important;
+}
+.h_1000 {
+  height: 1000vw!important;
+}
+#img_wrapper {
+  display: block;
+  position: fixed;
+  left: 0;
+}
+.meteo1, .meteo2, .meteo3 {
+    display: block;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0vw;
+    right: -100vw;
+}
+.meteo4 {
+    display: block;
+    width: 40vw;
+    height: 40vw;
+    position: fixed;
+    top: -50%;
+    right: -100%;
+}
+#pc {
+  display:none;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0);
+  color: #FFF;
+  font-size: 2rem;
+  text-align: center;
+}
+.smoke {
+  display: block;
+  position: fixed;
+  left: 0;
+}
+.smoke1 {
+  width: 150vw;
+  height: 150vw;
+  bottom: -150vw;
+}
+.smoke2, .smoke6, .smoke7 {
+  width: 100vw;
+  height: 200vw;
+  bottom: -200vw;
+}
+.smoke3, .smoke4, .smoke5, .smoke8, .smoke9 {
+  width: 80vw;
+  height: 160vw;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+#rulers {
+  margin: 0;
+  padding: 0;
+}
+#rulers li {
+  display: block;
+  width: 100vw;
+  height: 100vw;
+  margin: 0;
+  padding: 0;
+  background: rgba(255,255,255,0);
+}
+
+
+@media screen and (min-width:600px) {
+  #background {
+    width: 50vw;
+    height: 150vw;
+  }
+  #content_wrapper {
+    width: 50vw;
+  }
+  footer a h1 {
+    width: 50vw;
+  }
+  .h_200 {
+    height: 100vw!important;
+  }
+  .h_300 {
+    height: 150vw!important;
+  }
+  .h_500 {
+    height: 250vw!important;
+  }
+  .h_1000 {
+    height: 500vw!important;
+  }
+  .meteo1, .meteo2, .meteo3 {
+    width: 50vw;
+    height: 50vw;
+    top: 0vh;
+    right: 0vw;
+  }
+  #pc {
+    display: block;
+    width: 50vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .smoke1 {
+    width: 75vw;
+    height: 75vw;
+  bottom: -75vw;
+  }
+  .smoke2, .smoke6, .smoke7 {
+    width: 50vw;
+    height: 100vw;
+    bottom: -100vw;
+  }
+  .smoke3, .smoke4, .smoke5, .smoke8, .smoke9 {
+    width: 40vw;
+    height: 80vw;
+  }
+  #rulers li {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+a {
+  text-decoration: none;
+}
