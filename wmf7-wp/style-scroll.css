@@ -130,9 +130,9 @@ footer a{
   #content_wrapper {
     width: 50vw;
   }
-  footer a {
+  /* footer a {
     width: 50vw;
-  }
+  } */
   footer a h1 {
     width: 50vw;
   }
@@ -181,6 +181,6 @@ footer a{
   }
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
