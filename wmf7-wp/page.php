@@ -1,8 +1,3 @@
-<?php
-/*
-Template Name: 人類滅亡
-*/
-?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
